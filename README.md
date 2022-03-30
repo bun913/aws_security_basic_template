@@ -103,12 +103,16 @@ https://dev.classmethod.jp/articles/aws-security-all-in-one-2021/
 
 初級編
 
-- 踏み台の代わりになるFargateタスク
+- [x] 踏み台の代わりになるFargateタスク
   - セッションマネージャーでアクセスさせる
   - Terraformでレシピを作っておく
-- SSMパッチマネージャーをEC2に適用させるセットを作っておく
+  - https://zenn.dev/bun913/articles/aws-bastion-fargate-and-ec2
+  　　　　- やってみた記事
+- [x] SSMパッチマネージャーをEC2に適用させるセットを作っておく
   - https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ssm_patch_baseline
   - https://www.zead.co.jp/column/ssm_patch/
+  - https://zenn.dev/bun913/articles/aws-bastion-fargate-and-ec2
+    - やってみた記事
 - AWS WAFをTerraformで設定
   - https://registry.terraform.io/providers/babylonhealth/aws-babylon/latest/docs/resources/wafv2_web_acl
   - どういったルールを最低限適用させるべきかという選定も必要
