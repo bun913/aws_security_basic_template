@@ -113,10 +113,10 @@ https://dev.classmethod.jp/articles/aws-security-all-in-one-2021/
   - https://www.zead.co.jp/column/ssm_patch/
   - https://zenn.dev/bun913/articles/aws-bastion-fargate-and-ec2
     - やってみた記事
-- AWS WAFをTerraformで設定
-  - [ ] CloudFront -> WAF -> ALBという形でTerraformで組んでみる
-  - https://registry.terraform.io/providers/babylonhealth/aws-babylon/latest/docs/resources/wafv2_web_acl
-  - どういったルールを最低限適用させるべきかという選定も必要
+- [x] AWS WAFをTerraformで設定
+  - [x] https://github.com/bun913/aws_cloudfront_and_waf
+  - https://zenn.dev/bun913/articles/waf-cloudfront-by-terraform
+    - やってみた記事
 
 中級編
 
