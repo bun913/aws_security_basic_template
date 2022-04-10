@@ -120,19 +120,21 @@ https://dev.classmethod.jp/articles/aws-security-all-in-one-2021/
 
 中級編
 
-- ConfiguRulesの設定
-  - https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_config_rule
-- セキュリティハブの設定
-  - https://dev.classmethod.jp/articles/2020-strongest-aws-securitycheck-practice/
-  - https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/securityhub_account
-- GuardDurtyで脅威検知
-  - https://docs.aws.amazon.com/ja_jp/guardduty/latest/ug/what-is-guardduty.html
-  - これからインシデント対応の計画を立てる
-  - ポチッと有効化するだけで良い
-  - 全リージョン・全アカウントで有効化する
-  - EC2タイプの何か起こったら、SecuiryGroup変更で隔離。その後の調査はプロに依頼する。
-- インシデント対応の計画を立てる
-  - どんなインシデントが発生するか
+- [x] 各種検出系サービスの有効化・通知(Terraform)
+  - https://github.com/bun913/aws_security_hub
+  - ConfiguRulesの設定
+    - https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_config_rule
+  - セキュリティハブの設定
+    - https://dev.classmethod.jp/articles/2020-strongest-aws-securitycheck-practice/
+    - https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/securityhub_account
+  - GuardDurtyで脅威検知
+    - https://docs.aws.amazon.com/ja_jp/guardduty/latest/ug/what-is-guardduty.html
+    - これからインシデント対応の計画を立てる
+    - ポチッと有効化するだけで良い
+    - 全リージョン・全アカウントで有効化する
+    - EC2タイプの何か起こったら、SecuiryGroup変更で隔離。その後の調査はプロに依頼する。
+  - インシデント対応の計画を立てる
+    - どんなインシデントが発生するか
 
 上級編
 
